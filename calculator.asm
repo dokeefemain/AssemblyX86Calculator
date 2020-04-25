@@ -62,7 +62,7 @@ mulin:
 	
 	cmp al,muling
 	jne divin
-	call division
+	call multiplication
 	jmp final
 divin:
 	call division
